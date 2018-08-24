@@ -10,9 +10,8 @@ public class Equipment {
 	/** 
 	 * For Post request
 	 */
-	private String _id;
+	private String _id;// Will be Equipment Number as Unique
 	
-	//private String equipmentNumber;
 	private String address;
 	private String contractStartDate;
 	private String contractEndDate;
@@ -33,12 +32,6 @@ public class Equipment {
 		this._rev = rev;
 	}
 
-	/*public String getEquipmentNumber() {
-		return equipmentNumber;
-	}
-	public void setEquipmentNumber(String equipmentNumber) {
-		this.equipmentNumber = equipmentNumber;
-	}*/
 	public String getAddress() {
 		return address;
 	}
